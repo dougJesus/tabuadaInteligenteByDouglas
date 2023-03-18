@@ -56,3 +56,25 @@ section{
     height: 30px;
     width: 200px;
 }
+
+@media only screen and (max-width: 600px){
+   .form {
+    width: 180px;
+   }
+}
+@media only screen and (max-width: 667px){
+    .form {
+        width: 160px;
+    }
+}
+#botao {
+    width: 180px;
+}
+@media only screen and (max-width: 653px){
+    .form {
+        width: 120px;
+    }
+}
+#botao {
+    width: 120px;
+}
