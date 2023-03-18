@@ -3,12 +3,12 @@ body {
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
 }
 
 header{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 33vw;
+    display: flex;
+    flex-direction: column;
     
 }
 

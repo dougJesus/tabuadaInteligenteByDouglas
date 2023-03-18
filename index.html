@@ -9,7 +9,6 @@
 </head>
 <body>
     <header> 
-        <img src="img/tabu.svg" width="100">
         <h1> Tabuada Inteligente </h1>
     </header>
 
@@ -17,14 +16,14 @@
         <div>
             <p>
                 Qual tabuada você deseja saber ?<br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="num">
             </p>
             <p>
                 Até que número você quer ?<br>
-                <input type="number" class="form">
+                <input type="number" class="form" id="end">
             </p> 
             <p>
-                <input type="button" value="Calcular" id="botao">
+                <input type="button" value="Calcular" id="botao" onclick="Tabuada()">
             </p>
         </div>
 
@@ -33,7 +32,7 @@
 
         </div>
     </section>
-    
+    <script src="tabuada_script.js"></script>
 
     
 </body>
