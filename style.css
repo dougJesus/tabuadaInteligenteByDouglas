@@ -1,9 +1,11 @@
 body {
+    background-image: url(https://thumbs.dreamstime.com/b/papel-de-parede-para-n%C3%BAmeros-dispersos-fundo-uso-em-segundo-plano-ou-com-layouts-design-cria%C3%A7%C3%A3o-conte%C3%BAdo-166001442.jpg);
     background-color: red;
     color: white;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 100px;
+    
 }
 
 header{
@@ -11,28 +13,46 @@ header{
     flex-direction: column;
     
 }
+header h1{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    
+}
 
 section{
-    background-color: rgb(238, 199, 199);
-    color: black;
+    background-color: rgb(122, 191, 255);
+    color: rgb(39, 0, 211);
     padding: 10px;
     border-radius: 20px;
     width: 50%;
     margin: auto;
+    
+}
+    section p{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+#resposta{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
 }
 #botao{
     background-color: rgb(12, 112, 242);
     color: black;
     border: 0px;
-    width: 150px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
     border-radius: 10px;
 }
-
+::placeholder{
+    color:blue;
+}
 .form{
     margin: 8px;
     border-radius: 10px;
     border-style:none;
-    height: 20px;
+    height: 30px;
     width: 200px;
 }
